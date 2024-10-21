@@ -39,6 +39,8 @@ automatically trigger to start the build process of the job
 http://localhost:8080/buildByToken/buildWithParameters?token=54321&job=<name_of_ur_job>
 &whoami=pranit&filename=test.txt
 
+http://localhost:8080/buildByToken/buildWithParameters?token=54321&job=exp9&whoami=arlekar&filename=test.txt
+
 Step 7: You can see the building of job successfully completed
 on the Jenkins dashboard .Observe the outputs in console
 output
