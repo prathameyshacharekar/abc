@@ -1,0 +1,39 @@
+git init <repository-name>
+git status
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+git config --gloal --list
+
+To create new file
+touch myX.txt
+
+git add <file-name>
+
+git commit -m "Your commit message"
+
+git log
+
+5.. Remote to local
+git clone <repository-url>
+
+To pull the latest changes from the remote repository:
+bash
+git pull origin main
+
+To create a new branch and switch to it, use:
+bash
+git checkout -b feature/add-my-name
+
+
+Push local to remote..
+1.. Create a repository on GitHub.
+
+2.. Link the remote:
+bash
+git remote add origin <repository-url>
+
+3.. Push the local repository:
+bash
+git push -u origin main
