@@ -1,0 +1,36 @@
+1. Create a Repository on GitHub
+2. Fork a Repository
+3. Clone the Forked Repository Locally
+
+bash
+git clone <forked-repository-url>
+
+
+4. Create a New Branch for Your Changes
+bash
+git checkout -b feature/my-changes
+
+5. Make Changes and Commit
+ . Make your changes in the code.
+ . Stage and commit your changes:
+   bash
+   git add .
+   git commit -m "Describe your changes"
+   
+6. Push Changes to Your Fork
+bash
+git remote add origin <forked-repo>
+git push origin feature/my-changes
+
+7. Create a Pull Request
+
+1. Go to your forked repository on GitHub.
+2. You will see a prompt to create a pull request. Click on *Compare & pull request*.
+3. Fill in the pull request details (title, description) and click *Create pull request*.
+
+8. Merge the Pull Request
+
+1. Once the pull request is created, you (or the repository owner) can review the changes.
+2. If everything looks good, click the *Merge pull request* button.
+3. Confirm the merge.
+
