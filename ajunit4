@@ -1,0 +1,18 @@
+require plugin: TestNG Result
+
+Step 1: Check your jdk version and maven version
+Step 2: Login Jenkins admin and go to manage jenkins > Tools
+Step 3:set the JDK path in Jenkins as shown below
+Step 4:set the maven path in Jenkins as shown below & Click on the Apply
+Step 5:Click on the Manage Jenkins>Plugins
+Step 6:Click installed plugin and check if TestNG Result is installled or not.
+Step 7:Create a new FreeStyle project.Give the Name of the project –
+JUnitReport_Demo.Click on the Freestyle project.
+Step 8:Select a custom workspace and provide the full path of the project.
+Step 10:In the Build Steps section, select Invoke top-level Maven targets.
+Step 11:In the Build Steps section, select Invoke top-level Maven targets.
+Step 12: Provide the full path to pom.xml
+Scroll down to “Post Build Actions” and click on the “Add Post Build Actions” drop- down list. Select “Publish JUnit test result report“.
+Enter the Result Path as “**/target/surefire-reports/*.xml”. Click on the
+Apply and Save buttons
+Execute the tests by clicking on the “Build Now” button.
